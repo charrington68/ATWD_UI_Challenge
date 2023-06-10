@@ -9,7 +9,7 @@ export class AppComponent {
   @ViewChild('containerDiv' , {read: ElementRef, static: true}) container: ElementRef;
   @ViewChild('buttonDiv' , {read: ElementRef, static: true}) buttonDiv: ElementRef;
   title = 'wfui';
-  buttonText = ['Click Me!', 'Just Missed!', 'Try Again!', 'Almost Got It!', 'SOOOO Close!'];
+  buttonText = ['Click Me!', 'Just Missed!', 'Try Again!', 'Almost Got It!', 'SOOOO Close!', 'Gotta Be Faster!'];
   buttonId = 0;
   topVal = 50;
   top = '50px';
