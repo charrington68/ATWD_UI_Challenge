@@ -1,6 +1,6 @@
 <div #containerDiv class="full-screen">
   <div #buttonDiv class="movable-button" (mouseover)="mouseOver()" [style.top]="top" [style.left]="left">
-    <button mat-fab extended>
+    <button mat-fab extended tabindex="-1">
       <mat-icon>home</mat-icon>
       {{buttonText[buttonId]}}
     </button>
